@@ -63,7 +63,7 @@ ul li.checked::before {
 }
 
 .header {
-  background-color: #f78501;
+  background-image: url(css/todophoto.jpg);
   padding: 30px 40px;
   color: white;
   text-align: center;
