@@ -14,7 +14,7 @@
     <title>Yapılacaklar Listesi</title>
   </head>
   <body>
-    <div class="mr-1" style="position: relative">
+    <div class="container-fluid" style="position: relative">
       <div style="position: absolute; top: 0; right: 0">
         <div
           id="liveToast"
@@ -64,14 +64,11 @@
     </div>
     <div class="container">
       <div class="header">
-        <img
-          src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
-          class="mb-1"
-          alt=""
-        />
-        <h2>Yapılacaklar Listesi</h2>
-        <input type="text" id="task" placeholder="Bugün ne yapacaksın?" />
-        <span id="liveToastBtn" class="button">Ekle</span>
+        <h2>Çok Amaçlı Liste</h2>
+        <div class="görev">
+          <input type="text" id="task" placeholder="Buraya Yazınız" />
+          <span id="liveToastBtn" class="button">Ekle</span>
+        </div>
       </div>
 
       <ul id="list"></ul>
@@ -86,6 +83,9 @@
         crossorigin="anonymous"
       ></script>
       <script src="index.js"></script>
+    </div>
+    <div style="text-align: center; color: rgb(33, 31, 31); padding: 15px">
+      <a href="https://github.com/metaksoy">© 2022 github.com/metaksoy</a>
     </div>
   </body>
 </html>
